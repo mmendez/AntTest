@@ -25,7 +25,7 @@
 		<git command="push">
 			<args>
 				<arg value="origin"/>
-				<arg value="remote"/>
+				<arg value="master"/>
 			</args>
 		</git>
 	</target>
