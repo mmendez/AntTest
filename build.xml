@@ -24,8 +24,7 @@
 	<target name="push">
 		<git command="push">
 			<args>
-				<arg value="origin"/>
-				<arg value="master"/>
+				<arg value="https://mmendez:Password1@github.com/mmendez/AntTest.git"/>
 			</args>
 		</git>
 	</target>
