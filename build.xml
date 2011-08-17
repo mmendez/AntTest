@@ -28,4 +28,12 @@
 			</args>
 		</git>
 	</target>
+	<target name="push-tag">
+		<git command="push">
+			<args>
+				<arg value="--tags"/>
+				<arg value="https://mmendez:Password1@github.com/mmendez/AntTest.git"/>
+			</args>
+		</git>
+	</target>
 </project>
